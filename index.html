@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benjamin Lenox — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">BL<span class="accent">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1 class="hero-name">Benjamin Lenox</h1>
+      <div class="hero-role">
+        <span class="role-prefix">&gt;&nbsp;</span><span id="typed-text"></span><span class="cursor">|</span>
+      </div>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+        <a href="LenoxBenjaminResume.pdf" download class="btn btn-outline">Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a Management Information Systems graduate from the University of Alabama
+            with a passion for sitting at the intersection of technology and business.
+            Whether I'm resolving critical IT infrastructure issues, leading development teams,
+            or building software from scratch, I bring both technical depth and clear
+            communication to every role.
+          </p>
+          <p>
+            Currently supporting Fire, Police, and village staff as an IT Support Specialist
+            at the Village of Homewood — keeping systems secure, stable, and fast.
+          </p>
+        </div>
+        <div class="stats-grid reveal">
+          <div class="stat-card">
+            <span class="stat-number" data-target="500">0</span><span class="stat-plus">+</span>
+            <p class="stat-label">Tickets Resolved</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="150">0</span><span class="stat-plus">+</span>
+            <p class="stat-label">Devices Managed</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="30">0</span><span class="stat-plus">%</span>
+            <p class="stat-label">Web Traffic Increase</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="100">0</span><span class="stat-plus">+</span>
+            <p class="stat-label">Code Contributions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>IT Support Specialist</h3>
+              <span class="timeline-badge">Current</span>
+            </div>
+            <p class="timeline-org">Village of Homewood &mdash; Homewood, IL</p>
+            <p class="timeline-date">September 2025 &ndash; Present</p>
+            <ul>
+              <li>Improved response time ~20% by mandating structured ticket submission</li>
+              <li>Manage and resolve hundreds of tickets via Spiceworks and NinjaOne</li>
+              <li>Follow FBI and CISA protocols to eliminate security threats daily</li>
+              <li>Diagnose hardware and networking issues across 150+ iOS and Windows systems</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Technical Lead</h3>
+            </div>
+            <p class="timeline-org">Alabama Museum of Natural History &mdash; Tuscaloosa, AL</p>
+            <p class="timeline-date">January 2025 &ndash; May 2025</p>
+            <ul>
+              <li>Led a team of 5 developers using Azure DevOps and Microsoft Teams</li>
+              <li>Gathered, defined, and negotiated technical requirements with non-technical stakeholders</li>
+              <li>Pushed 50+ C#, JavaScript, and HTML contributions to the ARCTOS platform</li>
+              <li>Increased website traffic by ~30%, setting a nation-wide front-end standard</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Support Analyst I</h3>
+            </div>
+            <p class="timeline-org">Culverhouse Technology Group &mdash; Tuscaloosa, AL</p>
+            <p class="timeline-date">June 2024 &ndash; May 2025</p>
+            <ul>
+              <li>Resolved technical issues for faculty and staff via TeamDynamix (300+ tickets)</li>
+              <li>Maintained classroom hardware at 90%+ utilization</li>
+              <li>Installed and configured 50+ Windows 10/11 devices</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Campus Manager</h3>
+            </div>
+            <p class="timeline-org">Fresh Prints &mdash; Tuscaloosa, AL</p>
+            <p class="timeline-date">September 2022 &ndash; August 2023</p>
+            <ul>
+              <li>Built lasting customer relationships to drive thousands in merchandise sales</li>
+              <li>Led design and logistics coordination for custom apparel campaigns</li>
+              <li>Reduced costs 10&ndash;20% compared to competitors through operational efficiency</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-icon">&#x1F4AA;</div>
+          <h3>GymBro</h3>
+          <p>AI-enabled workout tracker that lets users log workouts, track progress over time, and receive personalized training recommendations based on their performance data.</p>
+          <div class="tag-row">
+            <span class="tag">AI</span>
+            <span class="tag">Fitness</span>
+            <span class="tag">Full-Stack</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-icon">&#x1F4DA;</div>
+          <h3>The Book Bin</h3>
+          <p>Point-of-sale and inventory management system built for a used bookstore. Handles transactions, stock tracking, and generates business reports for the owner.</p>
+          <div class="tag-row">
+            <span class="tag">POS</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Inventory</span>
+            <span class="tag">C#</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Technical Skills</h2>
+      <div class="skills-container">
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Languages</h3>
+          <div class="skill-pills">
+            <span class="pill">C#</span>
+            <span class="pill">Java</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">SQL</span>
+            <span class="pill">HTML</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Tools &amp; Platforms</h3>
+          <div class="skill-pills">
+            <span class="pill">Azure DevOps</span>
+            <span class="pill">GitHub</span>
+            <span class="pill">.NET</span>
+            <span class="pill">Linux</span>
+            <span class="pill">Spiceworks</span>
+            <span class="pill">NinjaOne</span>
+            <span class="pill">RUCKUS One</span>
+            <span class="pill">Visual Studio</span>
+            <span class="pill">Microsoft Excel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Honors 
+  <section class="section" id="honors">
+    <div class="container">
+      <h2 class="section-title reveal">Honors &amp; Certifications</h2>
+      <div class="honors-grid">
+        <div class="honor-card reveal">
+          <span class="honor-icon">&#x1F510;</span>
+          <p>CJIS Security Role Certification</p>
+        </div>
+        <div class="honor-card reveal">
+          <span class="honor-icon">&#x1F393;</span>
+          <p>Presidential Diversity Scholarship Recipient</p>
+        </div>
+        <div class="honor-card reveal">
+          <span class="honor-icon">&#x1F3DB;&#xFE0F;</span>
+          <p>Alabama Information Management Society</p>
+        </div>
+        <div class="honor-card reveal">
+          <span class="honor-icon">&#x2B50;</span>
+          <p>UA Dean&rsquo;s List 2023&ndash;2025</p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <p class="contact-sub reveal">I&rsquo;m open to new opportunities and collaborations. Feel free to reach out.</p>
+      <div class="contact-cards reveal">
+        <a href="mailto:Benlen783@gmail.com" class="contact-card">
+          <span class="contact-icon">&#x2709;</span>
+          <span>Benlen783@gmail.com</span>
+        </a>
+        <a href="https://linkedin.com/in/benlenox" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <span class="contact-icon">&#x1F517;</span>
+          <span>linkedin.com/in/benlenox</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <a href="#hero" class="nav-logo">BL<span class="accent">.</span></a>
+      <nav class="footer-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; 2026 Benjamin Lenox</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

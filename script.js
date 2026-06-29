@@ -5,7 +5,7 @@
 // before moving to the next role — creating a typewriter effect.
 // ============================================================
 
-const roles = ['IT Support Specialist', 'MIS Graduate', 'Team Lead', 'Developer'];
+const roles = ['IT Support Specialist', 'MIS Graduate', 'Team Lead', 'Support Analyst'];
 
 let roleIndex = 0;    // which role we're currently typing
 let charIndex = 0;    // how many characters of the current role are visible
